@@ -2,14 +2,18 @@
 // http://ionicframework.com/docs/theming/
 
 /** Ionic CSS Variables **/
+.bg {
+  background-color: #fff;
+} 
+
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
-  --ion-color-primary-rgb: 56, 128, 255;
-  --ion-color-primary-contrast: #ffffff;
-  --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary: #4B6EF7;
+	--ion-color-primary-rgb: 75,110,247;
+	--ion-color-primary-contrast: #ffffff;
+	--ion-color-primary-contrast-rgb: 255,255,255;
+	--ion-color-primary-shade: #4261d9;
+	--ion-color-primary-tint: #5d7df8;
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -68,15 +72,16 @@
   --ion-color-medium-tint: #9d9fa6;
 
   /** light **/
-  --ion-color-light: #f4f5f8;
-  --ion-color-light-rgb: 244, 245, 248;
-  --ion-color-light-contrast: #000000;
-  --ion-color-light-contrast-rgb: 0, 0, 0;
-  --ion-color-light-shade: #d7d8da;
-  --ion-color-light-tint: #f5f6f9;
+  --ion-color-light: #F5F6FF;
+
+	--ion-color-light-rgb: 245,246,255;
+	--ion-color-light-contrast: #000000;
+	--ion-color-light-contrast-rgb: 0,0,0;
+	--ion-color-light-shade: #d8d8e0;
+	--ion-color-light-tint: #f6f7ff;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   /*
    * Dark Colors
    * -------------------------------------------
@@ -139,7 +144,7 @@
     --ion-color-medium-shade: #86888f;
     --ion-color-medium-tint: #a2a4ab;
 
-    --ion-color-light: #222428;
+    --ion-color-light: #fff;
     --ion-color-light-rgb: 34,36,40;
     --ion-color-light-contrast: #ffffff;
     --ion-color-light-contrast-rgb: 255,255,255;
@@ -153,7 +158,7 @@
    */
 
   .ios body {
-    --ion-background-color: #000000;
+    --ion-background-color: #fff;
     --ion-background-color-rgb: 0,0,0;
 
     --ion-text-color: #ffffff;
@@ -197,7 +202,7 @@
    */
 
   .md body {
-    --ion-background-color: #121212;
+    --ion-background-color: #fff;
     --ion-background-color-rgb: 18,18,18;
 
     --ion-text-color: #ffffff;
