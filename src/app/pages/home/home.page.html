@@ -42,10 +42,10 @@
       [detail]="true"
     >
       <ion-avatar slot="start">
-        <img [src]="'https://i.pravatar.cc/385'" />
+        <img [src]="item?.photo" />
       </ion-avatar>
       <ion-label>
-        abc
+        {{item?.name}}
         <p>
           <ion-text>
             message
